@@ -1,0 +1,80 @@
+.reveal h1, .reveal h2, .reveal h3{
+    font-family: serif;
+    color: #a671f0;
+}
+.reveal p{
+    font-size: 20px;
+}
+.reveal li{
+    font-size: 18px;
+}
+#cit{
+    font-style: italic;
+}
+.reveal .slide-number {
+    font-size: 28px !important;      /* Ingrandisci */
+    color: #F57AB3 !important; 
+    background: none !important;
+    padding: 0 !important;
+    margin: 0;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    position: absolute;
+    bottom: 10px;
+    right: 4%;
+    transform: translateX(50%);
+    z-index: 1;
+    font-weight: bold;
+    font-family: sans-serif;
+    opacity: 1;
+    transition: color 0.3s ease;
+}
+.reveal aside.controls {
+    bottom: 40px !important;
+}
+.reveal .controls .navigate-left,
+.reveal .controls .navigate-right,
+.reveal .controls .navigate-up,
+.reveal .controls .navigate-down {
+    color: #F57AB3 !important; 
+    opacity: 1 !important;
+    transition: color 0.3s ease;
+}
+
+.reveal .slide-number a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.reveal .slide-number:hover,
+.reveal .slide-number:hover a {
+  color: #F57F7A !important;
+}
+
+.reveal .navigate-left:hover,
+.reveal .navigate-right:hover,
+.reveal .navigate-up:hover,
+.reveal .navigate-down:hover {
+  color: #F57F7A !important;
+}
+
+/* Color only the bullets/numbers */
+.reveal ul li::marker {
+  color: #A17AF5;  /* coral color */
+}
+
+.reveal ol li::marker {
+  color: #A17AF5;  /* coral color */
+}
+
+/* fallback for browsers without ::marker */
+.reveal ul li {
+  list-style-position: inside;
+  color: inherit;  /* keep text color unchanged */
+}
+
+.reveal ol li {
+  list-style-position: inside;
+  color: inherit;
+}
