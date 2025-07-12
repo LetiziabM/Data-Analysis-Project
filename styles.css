@@ -8,9 +8,6 @@
 .reveal li{
     font-size: 18px;
 }
-#cit{
-    font-style: italic;
-}
 .reveal .slide-number {
     font-size: 28px !important;      /* Ingrandisci */
     color: #F57AB3 !important; 
@@ -59,21 +56,18 @@
   color: #F57F7A !important;
 }
 
-/* Color only the bullets/numbers */
 .reveal ul li::marker {
-  color: #A17AF5;  /* coral color */
+  color: #A17AF5;  
 }
 
 .reveal ol li::marker {
-  color: #A17AF5;  /* coral color */
+  color: #A17AF5;  
 }
 
-/* fallback for browsers without ::marker */
 .reveal ul li {
   list-style-position: inside;
-  color: inherit;  /* keep text color unchanged */
+  color: inherit;  
 }
-
 .reveal ol li {
   list-style-position: inside;
   color: inherit;
